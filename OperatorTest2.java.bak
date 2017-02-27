@@ -1,0 +1,21 @@
+class OperatorTest2 
+{
+	public static void main(String[] args) 
+	{
+		int age;
+		int a=7, b=7;
+		age = 28;
+		System.out.println(age);
+		age=age+1;
+		System.out.println(age);
+		age++;
+		System.out.println(age);
+
+		System.out.println("a = "+(++a));
+		System.out.println("b = "+(b+1));
+
+		System.out.println("a = "+a);
+		System.out.println("b = "+b);
+
+	}
+}
